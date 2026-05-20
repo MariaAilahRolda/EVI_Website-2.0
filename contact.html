@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ecozmart Ventures Incorporated</title>
+
+  <!-- Favicons -->
+  <link rel="icon" href="assets/logo/icon.png">
+  <link rel="apple-touch-icon" href="assets/logo/icon.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Main CSS -->
+  <link href="css/style.css" rel="stylesheet">
+
+
+  <!-- EmailJS -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script>
+    (function () {
+      emailjs.init("kTEuafI1VwwlNd3bt"); // ✅ Replace with your EmailJS Public Key
+    })();
+  </script>
+
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="panel">
+
+      <header class="topbar navbar navbar-expand-lg" aria-label="Top navigation">
+        <div class="brand">
+          <a href="index.html" class="logo" aria-label="Ecozmart Home">
+            <img src="assets/logo/EVI_2.png" alt="Ecozmart Ventures">
+          </a>
+        </div>
+
+        <!-- Burger button (shows on mobile) -->
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainNav"
+                aria-controls="mainNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapsible links -->
+        <div class="collapse navbar-collapse" id="mainNav">
+          <nav class="main-nav navbar-nav ms-auto" aria-label="Primary">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="products.html">Products</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link active" href="contact.html">Contact</a>
+          </nav>
+        </div>
+      </header>
+
+      <!-- =========================
+     CONTACT US SECTION
+     ========================= -->
+        <section class="contact-section" id="contact" aria-label="Contact Ecozmart">
+        <div class="contact-grid">
+
+            <!-- Left: Contact info -->
+            <div class="contact-info">
+            <div class="contact-kicker">CONTACT US</div>
+            <h2>Let’s talk about your project</h2>
+            <p>
+                Have questions about our products or want help with your next build?
+                Send us a message and our team will get back to you as soon as possible.
+            </p>
+
+            <ul class="contact-details">
+                <li><i class="bi bi-geo-alt"></i> 2nd Floor JSO Building, Katipunan Ave., Quezon City</li>
+                <li><i class="bi bi-envelope"></i> info@ecozmart.ph</li>
+                <li><i class="bi bi-telephone"></i> +632 8741 2272</li>
+                <li><i class="bi bi-phone"></i> +63 945 533 9000</li>
+                <li><i class="bi bi-clock"></i> Mon–Fri 9:00–5:00 • Sat 9:00–12:00</li>
+            </ul>
+            </div>
+
+            <!-- Right: Email form -->
+            <form class="contact-form">
+
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="FULL NAME" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="YOUR EMAIL" required>
+            </div>
+
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" name="subject" id="subject" class="form-control" placeholder="SUBJECT" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="Message" rows="5" placeholder="MESSAGE" required></textarea>
+            </div>
+
+            <button type="submit" class="btn primary">SEND MESSAGE</button>
+            </form>
+
+        </div>
+        </section> 
+
+      <footer class="site-footer">
+        <div class="footer-grid">
+
+          <div class="footer-brand">
+            <img src="assets/logo/EVI_2.png" alt="Ecozmart Ventures">
+            <p>2nd Floor JSO Building, 210 Katipunan Avenue, Blue Ridge A, Quezon City</p>
+          </div>
+
+          <div class="footer-links">
+            <h4>Our Brands</h4>
+            <div class="brand-links">
+              <ul>
+                <li><a href="#">OJO</a></li>
+                <li><a href="#">Pattex</a></li>
+                <li><a href="#">T-Rex</a></li>
+                <li><a href="#">Tangit</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Ecoboards</a></li>
+                <li><a href="#">Smartflex</a></li>
+                <li><a href="#">Laticrete</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer-links footer-social">
+            <h4>Connect with us</h4>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/Ecozmart" target="_blank" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/ecozmartph/" target="_blank" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/ecozmart/about/" target="_blank" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-brand2">
+            <p><i class="bi bi-clock"></i> Mon–Fri 9:00–5:00 • Sat 9:00–12:00</p>
+            <p><i class="bi bi-envelope"></i> info@ecozmart.ph</p>
+            <p><i class="bi bi-telephone"></i> +632 8741 2272</p>
+            <p><i class="bi bi-phone"></i> +63 945 533 9000</p>
+          </div>
+
+        </div>
+
+        <div class="footer-bottom">
+          © 2026 Ecozmart Ventures Incorporated. All rights reserved.
+        </div>
+      </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    </div>
+  </div>
+
+  <script>
+
+    const slides = document.querySelectorAll('.heroImage.slider img');
+    let current = 0;
+
+    if (slides.length) {
+      setInterval(() => {
+        slides[current].classList.remove('active');
+        current = (current + 1) % slides.length;
+        slides[current].classList.add('active');
+      }, 3500);
+    }
+
+     // Back to top
+        const backToTop = document.getElementById('backToTop');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) backToTop.classList.add('show');
+            else backToTop.classList.remove('show');
+        });
+
+        backToTop.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+        
+        document.addEventListener("DOMContentLoaded", function() {
+            const form = document.getElementById("contact-form");
+            const loading = document.querySelector(".loading");
+            const errorBox = document.querySelector(".error-message");
+            const successBox = document.querySelector(".sent-message");
+            const sendBtn = document.getElementById("send-btn");
+            const btnText = document.getElementById("btn-text");
+
+            form.addEventListener("submit", function(e) {
+            e.preventDefault();
+
+            let name = document.getElementById("name").value.trim();
+            let email = document.getElementById("email").value.trim();
+            let subject = document.getElementById("subject").value.trim();
+            let message = document.getElementById("message").value.trim();
+            let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+            if (!name || !email || !subject || !message) {
+                errorBox.textContent = "⚠️ Please fill in all fields.";
+                errorBox.style.display = "block";
+                return;
+            }
+            if (!emailPattern.test(email)) {
+                errorBox.textContent = "⚠️ Please enter a valid email address.";
+                errorBox.style.display = "block";
+                return;
+            }
+
+            // Reset states
+            errorBox.style.display = "none";
+            successBox.style.display = "none";
+            loading.style.display = "block";
+            btnText.textContent = "Sending...";
+            sendBtn.disabled = true;
+
+            // First email: send to YOU
+            emailjs.send("service_eo904hb", "template_7dczys2", {
+                name: name,
+                email: email,
+                subject: subject,
+                message: message
+            })
+            .then(function() {
+                // Second email: auto-reply to sender
+                return emailjs.send("service_eo904hb", "template_n6477mn", {
+                name: name,
+                email: email,
+                subject: subject
+                });
+            })
+            .then(function() {
+                loading.style.display = "none";
+                successBox.style.display = "block";
+                sendBtn.classList.remove("btn-primary");
+                sendBtn.classList.add("btn-success");
+                btnText.textContent = "Sent!";
+                form.reset();
+
+                setTimeout(() => {
+                successBox.style.display = "none";
+                sendBtn.classList.remove("btn-success");
+                sendBtn.classList.add("btn-primary");
+                btnText.textContent = "Send";
+                sendBtn.disabled = false;
+                }, 4000);
+            })
+            .catch(function(error) {
+                loading.style.display = "none";
+                errorBox.textContent = "⚠️ Failed to send. Please try again.";
+                errorBox.style.display = "block";
+                btnText.textContent = "Send";
+                sendBtn.disabled = false;
+                console.error("EmailJS Error:", error);
+
+                setTimeout(() => {
+                errorBox.style.display = "none";
+                }, 4000);
+            });
+            });
+        });
+
+
+        
+  </script>
+</body>
+</html>

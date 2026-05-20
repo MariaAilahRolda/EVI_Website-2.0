@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ecozmart Ventures Incorporated</title>
+
+  <!-- Favicons -->
+  <link rel="icon" href="assets/logo/icon.png">
+  <link rel="apple-touch-icon" href="assets/logo/icon.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+  <!-- Main CSS -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="panel">
+
+      <header class="topbar navbar navbar-expand-lg" aria-label="Top navigation">
+        <div class="brand">
+          <a href="index.html" class="logo" aria-label="Ecozmart Home">
+            <img src="assets/logo/EVI_2.png" alt="Ecozmart Ventures">
+          </a>
+        </div>
+
+        <!-- Burger button (shows on mobile) -->
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainNav"
+                aria-controls="mainNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapsible links -->
+        <div class="collapse navbar-collapse" id="mainNav">
+          <nav class="main-nav navbar-nav ms-auto" aria-label="Primary">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link active" href="products.html">Products</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </nav>
+        </div>
+      </header>
+
+      <!-- =========================
+     PRODUCTS CATALOG (PER BRAND)
+     ========================= -->
+        <section class="catalog-section" id="products" aria-label="Products Catalog">
+        <div class="catalog-head">
+            <div class="catalog-kicker">PRODUCTS</div>
+            <h2>Product Catalog by Brand</h2>
+        </div>
+
+        <!-- Brand Tabs -->
+        <ul class="nav nav-pills catalog-tabs" id="brandTabs" role="tablist" aria-label="Brand tabs">
+            <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="tab-ecoboards" data-bs-toggle="pill" data-bs-target="#pane-ecoboards" type="button" role="tab" aria-controls="pane-ecoboards" aria-selected="true">
+                Ecoboards
+            </button>
+            </li>
+            <li class="nav-item" role="presentation">
+            <button class="nav-link" id="tab-ojo" data-bs-toggle="pill" data-bs-target="#pane-ojo" type="button" role="tab" aria-controls="pane-ojo" aria-selected="false">
+                OJO
+            </button>
+            </li>
+            <li class="nav-item" role="presentation">
+            <button class="nav-link" id="tab-pattex" data-bs-toggle="pill" data-bs-target="#pane-pattex" type="button" role="tab" aria-controls="pane-pattex" aria-selected="false">
+                Pattex
+            </button>
+            </li>
+            <li class="nav-item" role="presentation">
+            <button class="nav-link" id="tab-trex" data-bs-toggle="pill" data-bs-target="#pane-trex" type="button" role="tab" aria-controls="pane-trex" aria-selected="false">
+                T-Rex
+            </button>
+            </li>
+            <li class="nav-item" role="presentation">
+            <button class="nav-link" id="tab-tangit" data-bs-toggle="pill" data-bs-target="#pane-tangit" type="button" role="tab" aria-controls="pane-tangit" aria-selected="false">
+                Tangit
+            </button>
+            </li>
+        </ul>
+
+        <!-- Tab Panes -->
+        <div class="tab-content catalog-content" id="brandTabContent">
+
+            <!-- =========================
+                ECOBOARDS 
+                ========================= -->
+            <div class="tab-pane fade show active" id="pane-ecoboards" role="tabpanel" aria-labelledby="tab-ecoboards" tabindex="0">
+            <div class="brand-head">
+                <img src="assets/logo/Ecoboards1.png" alt="Ecoboards" class="brand-badge">
+                <div>
+                <h3 class="brand-title">Ecozmart Ecoboard</h3>
+                <p class="brand-desc">Eco-friendly recycled plastic boards.</p>
+                </div>
+            </div>
+
+            <div class="catalog-grid">
+                <!--Ecoboard Plus-->
+                <article class="product-card" data-category="boards" data-name="Ecozmart Ecoboards Plus">
+                <div class="product-media">
+                    <img src="assets\Ecoboards\EcoboardPlus.png" alt="Ecozmart Ecoboards Plus">
+                </div>
+                <div class="product-body">
+                    <h4>Ecozmart Ecoboard Plus Series</h4>
+                    <p>Made from plastic wastes, providing a durable and eco-friendly alternative for construction and furniture applications.</p>
+                    <div class="product-actions">
+                    <a class="btn primary" href="01 - EcoboardPlus.html">View Details</a>
+                    <a class="btn outline" href="contact.html">Inquire</a>
+                    </div>
+                </div>
+                </article>
+                <!--Ecoboard Pro-->
+                <article class="product-card" data-category="boards" data-name="Ecozmart Ecoboards Pro">
+                <div class="product-media">
+                    <img src="assets\Ecoboards\EcoboardPro.png" alt="Ecozmart Ecoboards Pro">
+                </div>
+                <div class="product-body">
+                    <h4>Ecozmart Ecoboard Pro Series</h4>
+                    <p> Made from used beverage cartons, offering a sustainable and high-performance solution for modern interiors and cladding applications.</p>
+                    <div class="product-actions">
+                    <a class="btn primary" href="02 - EcoboardPro.html">View Details</a>
+                    <a class="btn outline" href="contact.html">Inquire</a>
+                    </div>
+                </div>
+                </article>
+            </div>
+            </div>
+
+            <!-- OJO -->    
+            <div class="tab-pane fade" id="pane-ojo" role="tabpanel" aria-labelledby="tab-ojo" tabindex="0">
+            <div class="brand-head">
+                <img src="assets/logo/OJO.png" alt="OJO" class="brand-badge">
+                <div>
+                <h3 class="brand-title">OJO</h3>
+                <p class="brand-desc">Sealants and adhesives for strong, clean finishing.</p>
+                </div>
+            </div>
+
+            <div class="catalog-grid">
+                <!-- OJO MULTI SILICONE SEALANT -->
+                <article class="product-card" data-category="sealants" data-name="OJO Silicone Sealant">
+                <div class="product-media"><img src="assets\OJO\MultiWhite.png" alt="OJO Silicone Sealant"></div>
+                <div class="product-body">
+                    <h4>OJO Multi Silicone Sealant</h4>
+                    <p>High-performance neutral cure silicone sealant for waterproof and flexible sealing in construction and general repair applications.</p>
+                    <div class="product-actions">
+                        <a class="btn primary" href="03 - MultiSiliconSealant.html">View Details</a>
+                        <a class="btn outline" href="#contact">Inquire</a>
+                    </div>
+                </div>
+                </article>
+                <!-- OJO SUPER SEAL TAPE -->
+                <article class="product-card" data-category="sealants" data-name="OJO Super Seal">
+                <div class="product-media"><img src="assets\OJO\SuperSealing.png" alt="OJO Super Seal"></div>
+                <div class="product-body">
+                    <h4>OJO Multi Silicone Sealant</h4>
+                    <p>Heavy-duty self-adhesive waterproof sealing tape for roof, wall, gutter, and crack repair applications.</p>
+                    <div class="product-actions">
+                        <a class="btn primary" href="04 - SuperSeal.html">View Details</a>
+                        <a class="btn outline" href="#contact">Inquire</a>
+                    </div>
+                </div>
+                </article>
+                <!-- OJO GROUT DECORATOR SET -->
+                <article class="product-card" data-category="sealants" data-name="OJO Grout Decorator Set">
+                <div class="product-media"><img src="assets\OJO\SealantKit.png" alt="OJO Grout Decorator Set"></div>
+                <div class="product-body">
+                    <h4>OJO Grout Decorator Set</h4>
+                    <p>Complete grout application and finishing tool set for professional and DIY tile grouting, joint filling, and surface finishing.</p>
+                    <div class="product-actions">
+                        <a class="btn primary" href="#">View Details</a>
+                        <a class="btn outline" href="#contact">Inquire</a>
+                    </div>
+                </div>
+                </article>
+                <!-- OJO Stop Leaks Waterproof Spray -->
+                <article class="product-card" data-category="sealants" data-name="OJO Stop Leaks Waterproof Spray">
+                <div class="product-media"><img src="assets\OJO\LeaksGrey.png" alt="OJO Stop Leaks Waterproof Spray"></div>
+                <div class="product-body">
+                    <h4>OJO Stop Leaks Waterproof Spray</h4>
+                    <p>Ready-to-use acrylic waterproof spray that instantly seals leaks, cracks, and joints for long-lasting water protection.</p>
+                    <div class="product-actions">
+                        <a class="btn primary" href="#">View Details</a>
+                        <a class="btn outline" href="#contact">Inquire</a>
+                    </div>
+                </div>
+                </article>
+                
+            </div>
+            </div>
+
+            <!-- Pattex -->
+            <div class="tab-pane fade" id="pane-pattex" role="tabpanel" aria-labelledby="tab-pattex" tabindex="0">
+            <div class="brand-head">
+                <img src="assets/logo/Pattex.png" alt="Pattex" class="brand-badge">
+                <div>
+                <h3 class="brand-title">Pattex</h3>
+                <p class="brand-desc">Adhesives and construction bonding solutions.</p>
+                </div>
+            </div>
+            <div class="catalog-grid">
+                <!--Pattex Epoxy Clear Quickset #23-->
+                <article class="product-card" data-category="adhesive" data-name="Pattex Epoxy Clear Quickset #23">
+                <div class="product-media"><img src="assets\Pattex\ClearQuickset.png" alt="Pattex Epoxy Clear Quickset #23"></div>
+                <div class="product-body">
+                    <h4>Pattex Epoxy Clear Quickset #23</h4>
+                    <p>Fast-setting clear epoxy adhesive for strong and durable bonding repairs.</p>
+                    <div class="product-actions">
+                        <a class="btn primary" href="#">View Details</a>
+                        <a class="btn outline" href="contact.html">Inquire</a>
+                    </div>
+                </div>
+                </article>
+                <!--Pattex Epoxy Steel Quickset #27-->
+                <article class="product-card" data-category="adhesive" data-name="Pattex Epoxy Steel Quickset #27">
+                <div class="product-media"><img src="assets\Pattex\SteelQuickset.png" alt="Pattex Epoxy Steel Quickset #27"></div>
+                <div class="product-body">
+                    <h4>Pattex Epoxy Steel Quickset #27</h4>
+                    <p>Fast-setting steel epoxy adhesive for strong metal bonding, repair, and filling applications</p>
+                    <div class="product-actions">
+                        <a class="btn primary" href="#">View Details</a>
+                        <a class="btn outline" href="contact.html">Inquire</a>
+                    </div>
+                </div>
+                </article>
+
+            </div>
+            </div>
+
+            <!-- T-Rex -->
+            <div class="tab-pane fade" id="pane-trex" role="tabpanel" aria-labelledby="tab-trex" tabindex="0">
+            <div class="brand-head">
+                <img src="assets/logo/T-Rex.png" alt="T-Rex" class="brand-badge">
+                <div>
+                <h3 class="brand-title">T-Rex</h3>
+                <p class="brand-desc">High-performance adhesive and repair solutions.</p>
+                </div>
+            </div>
+            <div class="catalog-grid">
+                <!-- Bite Size -->
+                <article class="product-card" data-category="adhesives" data-name="T-Rex Bite Size">
+                <div class="product-media"><img src="assets\T-Rex\BiteSize.png" alt="T-Rex Bite Size"></div>
+                <div class="product-body">
+                    <h4>Bite Size Duct Tape</h4>
+                    <p>Compact heavy-duty adhesive tape for quick and strong repairs anytime, anywhere.</p>
+                    <div class="product-actions">
+                        <a class="btn primary" href="#">View Details</a>
+                        <a class="btn outline" href="#contact">Inquire</a>
+                    </div>
+                </div>
+                </article>
+                <!-- Mounting Size -->
+                <article class="product-card" data-category="adhesives" data-name="T-Rex Mounting Tape">
+                <div class="product-media"><img src="assets\T-Rex\MountingTape.png" alt="T-Rex Mounting Tape"></div>
+                <div class="product-body">
+                    <h4>Mounting Tape</h4>
+                    <p>Heavy-duty double-sided mounting tape for strong and permanent indoor or outdoor bonding.</p>
+                    <div class="product-actions">
+                        <a class="btn primary" href="#">View Details</a>
+                        <a class="btn outline" href="#contact">Inquire</a>
+                    </div>
+                </div>
+                </article>
+                <!-- Clear Repair Tape -->
+                <article class="product-card" data-category="adhesives" data-name="T-Rex Clear Repair Tape">
+                <div class="product-media"><img src="assets\T-Rex\ClearRepairTape.png" alt="T-Rex Clear Repair Tape"></div>
+                <div class="product-body">
+                    <h4>Clear Repair Tape</h4>
+                    <p>Crystal-clear heavy-duty repair tape for strong, waterproof, and discreet indoor or outdoor repairs.</p>
+                    <div class="product-actions">
+                        <a class="btn primary" href="#">View Details</a>
+                        <a class="btn outline" href="#contact">Inquire</a>
+                    </div>
+                </div>
+                </article>
+                <!-- Waterproof Tape -->
+                <article class="product-card" data-category="adhesives" data-name="T-Rex Waterproof Tape">
+                <div class="product-media"><img src="assets\T-Rex\WaterproofTape.png" alt="T-Rex Waterproof Tape"></div>
+                <div class="product-body">
+                    <h4>Waterproof Tape</h4>
+                    <p>Heavy-duty waterproof repair tape for strong sealing and instant fixes on wet or dry surfaces.</p>
+                    <div class="product-actions">
+                        <a class="btn primary" href="#">View Details</a>
+                        <a class="btn outline" href="#contact">Inquire</a>
+                    </div>
+                </div>
+                </article>
+                <!-- Clear Mounting Tape -->
+                <article class="product-card" data-category="adhesives" data-name="T-Rex Clear Mounting Tape">
+                <div class="product-media"><img src="assets\T-Rex\ClearMountingTape.png" alt="T-Rex Clear Mounting Tape"></div>
+                <div class="product-body">
+                    <h4>Clear Mounting Tape Extra Thick Double-Sided</h4>
+                    <p>Extra-thick clear double-sided mounting tape for strong, permanent bonding without nails or screws.</p>
+                    <div class="product-actions">
+                        <a class="btn primary" href="#">View Details</a>
+                        <a class="btn outline" href="#contact">Inquire</a>
+                    </div>
+                </div>
+                </article>
+                <!-- Super Glue Tape -->
+                <article class="product-card" data-category="adhesives" data-name="T-Rex Super Glue Tape">
+                <div class="product-media"><img src="assets\T-Rex\SuperGlueTape.png" alt="T-Rex Super Glue Tape"></div>
+                <div class="product-body">
+                    <h4>Super Glue Tape High-Tack Double-Sided</h4>
+                    <p>High-strength double-sided acrylic tape that bonds instantly for permanent mounting, repairs, and surface bonding without mess or glue.</p>
+                    <div class="product-actions">
+                        <a class="btn primary" href="#">View Details</a>
+                        <a class="btn outline" href="#contact">Inquire</a>
+                    </div>
+                </div>
+                </article>
+                <!-- Duct Tape -->
+                <article class="product-card" data-category="adhesives tape" data-name="T-Rex Duct Tape">
+                <div class="product-media"><img src="assets\T-Rex\DuctTape.png" alt="T-Rex Duct Tape"></div>
+                <div class="product-body">
+                    <h4>Duct Tape</h4>
+                    <p>Heavy-duty cloth duct tape with ultra-strong adhesive for tough repairs, sealing, and bundling in indoor and outdoor applications.</p>
+                    <div class="product-actions">
+                        <a class="btn primary" href="#">View Details</a>
+                        <a class="btn outline" href="#contact">Inquire</a>
+                    </div>
+                </div>
+                </article>
+
+            </div>
+            </div>
+
+            <!-- Tangit -->
+            <div class="tab-pane fade" id="pane-tangit" role="tabpanel" aria-labelledby="tab-tangit" tabindex="0">
+            <div class="brand-head">
+                <img src="assets/logo/Tangit.png" alt="Tangit" class="brand-badge">
+                <div>
+                <h3 class="brand-title">Tangit</h3>
+                <p class="brand-desc">PVC pipe cementing and plumbing solutions.</p>
+                </div>
+            </div>
+            <div class="catalog-grid">
+                <article class="product-card" data-category="adhesive" data-name="Tangit PVC Cement">
+                <div class="product-media"><img src="assets\Tangit\Adhesive400g.png" alt="Tangit PVC Cement"></div>
+                <div class="product-body">
+                    <h4>Tangit PVC Cement Pipe Adhesive</h4>
+                    <p>High-strength solvent-based PVC-U pipe adhesive for permanent, leak-proof bonding of plastic piping systems.</p>
+                    <div class="product-actions">
+                        <a class="btn primary" href="#">View Details</a>
+                        <a class="btn outline" href="#contact">Inquire</a>
+                    </div>
+                </div>
+                </article>
+            </div>
+            </div>
+
+        </div>
+        </section>
+
+
+     
+
+    
+    
+
+      <footer class="site-footer">
+        <div class="footer-grid">
+
+          <div class="footer-brand">
+            <img src="assets/logo/EVI_2.png" alt="Ecozmart Ventures">
+            <p>2nd Floor JSO Building, 210 Katipunan Avenue, Blue Ridge A, Quezon City</p>
+          </div>
+
+          <div class="footer-links">
+            <h4>Our Brands</h4>
+            <div class="brand-links">
+              <ul>
+                <li><a href="#">OJO</a></li>
+                <li><a href="#">Pattex</a></li>
+                <li><a href="#">T-Rex</a></li>
+                <li><a href="#">Tangit</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Ecoboards</a></li>
+                <li><a href="#">Smartflex</a></li>
+                <li><a href="#">Laticrete</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer-links footer-social">
+            <h4>Connect with us</h4>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/Ecozmart" target="_blank" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/ecozmartph/" target="_blank" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/ecozmart/about/" target="_blank" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-brand2">
+            <p><i class="bi bi-clock"></i> Mon–Fri 9:00–5:00 • Sat 9:00–12:00</p>
+            <p><i class="bi bi-envelope"></i> info@ecozmart.ph</p>
+            <p><i class="bi bi-telephone"></i> +632 8741 2272</p>
+            <p><i class="bi bi-phone"></i> +63 945 533 9000</p>
+          </div>
+
+        </div>
+
+        <div class="footer-bottom">
+          © 2026 Ecozmart Ventures Incorporated. All rights reserved.
+        </div>
+      </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    </div>
+  </div>
+
+  <script>
+
+    const slides = document.querySelectorAll('.heroImage.slider img');
+    let current = 0;
+
+    if (slides.length) {
+      setInterval(() => {
+        slides[current].classList.remove('active');
+        current = (current + 1) % slides.length;
+        slides[current].classList.add('active');
+      }, 3500);
+    }
+
+     // Back to top
+        const backToTop = document.getElementById('backToTop');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) backToTop.classList.add('show');
+            else backToTop.classList.remove('show');
+        });
+
+        backToTop.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        const searchInput = document.getElementById("catalogSearch");
+        const categorySelect = document.getElementById("catalogCategory");
+
+        function filterProducts() {
+            const q = (searchInput?.value || "").toLowerCase().trim();
+            const cat = categorySelect?.value || "all";
+
+            // Filter only cards inside the currently active tab
+            const activePane = document.querySelector(".catalog-content .tab-pane.active");
+            if (!activePane) return;
+
+            const cards = activePane.querySelectorAll(".product-card");
+            cards.forEach(card => {
+            const name = (card.dataset.name || "").toLowerCase();
+            const c = (card.dataset.category || "").toLowerCase();
+
+            const matchText = !q || name.includes(q);
+            const matchCat = (cat === "all") || (c === cat);
+
+            card.style.display = (matchText && matchCat) ? "" : "none";
+            });
+        }
+
+        searchInput?.addEventListener("input", filterProducts);
+        categorySelect?.addEventListener("change", filterProducts);
+
+        // When switching tabs, re-run filter
+        document.getElementById("brandTabs")?.addEventListener("click", () => {
+            setTimeout(filterProducts, 50);
+        });
+
+  </script>
+</body>
+</html>
