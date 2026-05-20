@@ -70,8 +70,8 @@
 
           <!-- Main Image -->
           <img id="mainProductImage"
-              src="assets\OJO\SuperSealing.png"
-              alt="SuperSealTape">
+              src="assets/OJO/SealantKit.png"
+              alt="Grout Decorator Set">
 
         </div>
 
@@ -79,49 +79,62 @@
         <div class="product-info-box">
 
           <div class="product-brand">OJO</div>
-          <h1 class="product-title">Super Sealing Tape</h1>
+          <h1 class="product-title">Grout Decorator Set</h1>
 
           <p class="product-desc">
-            Bitumen-based waterproof sealing tape with an aluminum foil surface designed for strong adhesion and long-lasting leak protection. It is used for sealing cracks, joints, and damaged surfaces on roofs, gutters, pipes, walls, and other construction materials. It provides excellent weather resistance and a durable waterproof barrier suitable for indoor and outdoor use.
+            Complete grout application and finishing tool set for professional and DIY tile grouting, joint filling, and surface finishing.
           </p>
 
-
         </div>
 
-        <!-- EXTRA SECTION -->
-        <div class="section-title">Product Description</div>
-        <div class="product-extra-grid">
-          <!-- FEATURES -->
-          <div class="extra-card">
-            <div class="section-title">
-              Key Features
-            </div>
-            <ul class="product-desc feature-list">
-              <li>100% waterproof sealing performance</li>
-              <li>Strong self-adhesive bitumen-based backing</li>
-              <li>UV and weather resistant for outdoor durability</li>
-              <li>Aluminum foil top layer for added protection</li>
-              <li>Flexible and easy to apply on uneven surfaces</li>
-              <li>Suitable for metal, concrete, wood, PVC, and roofing materials</li>
-              <li>High bonding strength for long-term repair</li>
-            </ul>
-          </div>
-          <!-- DIRECTIONS -->
-          <div class="extra-card">
-            <div class="section-title">
-              Direction for Use
-            </div>
-            <ol class="product-desc direction-list">
-              <li>Clean and dry the surface thoroughly (remove dust, oil, and loose particles).</li>
-              <li>Measure and cut the required length of tape.</li>
-              <li>Peel off the protective film.</li>
-              <li>Apply tape directly over cracks or joints.</li>
-              <li>Press firmly and smooth out to ensure full adhesion.</li>
-              <li>Overlap edges for better sealing on larger repairs.</li>
-              <li>Avoid water or stress on the area until fully bonded.</li>
-            </ol>
-          </div>
         </div>
+     <!-- EXTRA SECTION -->
+      <div class="section-title">Product Description</div>
+      <p class="product-desc">
+       OJO Grout Decorator Set is a handy tile finishing tool kit designed to help apply, shape, and smooth grout neatly between tiles. It is commonly used for floor and wall tiling projects, ensuring clean joints and a professional finish. The set is suitable for construction, renovation, and home DIY applications.
+      </p>
+<div class="product-extra-grid">
+
+  <!-- FEATURES -->
+  
+  <div class="extra-card">
+
+    <div class="section-title">
+      Key Features
+    </div>
+
+    <ul class="product-desc feature-list">
+      <li>Complete set for grout application and finishing</li>
+      <li>Helps achieve smooth, even, and clean tile joints</li>
+      <li>Suitable for floor and wall tiling projects</li>
+      <li>Durable, reusable tools for construction and DIY use</li>
+      <li>Improves speed and accuracy of grouting work</li>
+      <li>Ideal for ceramic, porcelain, and stone tiles</li>
+    </ul>
+
+  </div>
+
+  <!-- DIRECTIONS -->
+  <div class="extra-card">
+
+    <div class="section-title">
+      Direction for Use
+    </div>
+
+    <ol class="product-desc direction-list">
+      <li>Prepare tiles by cleaning joints from dust and debris.</li>
+      <li>Mix grout according to product instructions.</li>
+      <li>Apply grout using the appropriate tool from the set.</li>
+      <li>Spread evenly across tile joints, pressing firmly.</li>
+      <li>Use finishing tools to smooth and shape joints.</li>
+      <li>Remove excess grout from tile surface with a damp sponge.</li>
+      <li>Allow grout to cure fully before cleaning or heavy use.</li>
+    </ol>
+
+  </div>
+
+</div>
+
       </div>
 
       </section>
@@ -207,7 +220,8 @@
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
 
-  
+        const searchInput = document.getElementById("catalogSearch");
+        const categorySelect = document.getElementById("catalogCategory");
 
         function filterProducts() {
             const q = (searchInput?.value || "").toLowerCase().trim();
