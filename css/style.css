@@ -1744,3 +1744,63 @@ h1{
     height:250px;
   }
 }
+
+
+.product-desc.checklist {
+  list-style: none;
+  padding-left: 0;
+}
+
+.product-desc.checklist li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 8px;
+}
+
+.product-desc.checklist li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: green;
+  font-weight: bold;
+}
+
+
+.color-btn{
+  position:relative;
+}
+
+/* tooltip label */
+.color-btn::after{
+  content: attr(data-name);
+  position:absolute;
+  bottom:-32px;
+  left:50%;
+  transform:translateX(-50%) translateY(5px);
+
+  background:#274e10;
+  color:#fff;
+  font-size:12px;
+  font-weight:600;
+
+  padding:6px 10px;
+  border-radius:999px;
+
+  opacity:0;
+  visibility:hidden;
+  transition:all .2s ease;
+  white-space:nowrap;
+  pointer-events:none;
+}
+
+/* show on hover */
+.color-btn:hover::after{
+  opacity:1;
+  visibility:visible;
+  transform:translateX(-50%) translateY(0);
+}
+
+/* optional: show active color name always */
+.color-btn.active::after{
+  opacity:0.9;
+}
